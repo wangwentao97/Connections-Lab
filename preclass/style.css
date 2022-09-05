@@ -1,0 +1,19 @@
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+body {
+    background-color: rgba(20, 20, 20, 0.8);
+}
+
+a {
+    background-color: rgba(200, 200, 200, 0.5);
+}
