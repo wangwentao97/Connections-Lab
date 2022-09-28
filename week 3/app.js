@@ -23,7 +23,7 @@ window.addEventListener('load', function () {
             nameElement.innerHTML = results[0].name;
 
             let portElement = document.getElementById('c-port');
-            portElement.innerHTML = "Inport/Export: " + results[0].port;
+            portElement.innerHTML = "Import/Export: " + results[0].port;
 
             let numberElement = document.getElementById('c-number');
             numberElement.innerHTML = results[0].number + " Million 60 Kilogram Bags/year";
