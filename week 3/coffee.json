@@ -1,0 +1,124 @@
+{
+    "country": [
+    {
+    "name": "Brazil",
+    "port": "Export",
+    "number": "35,000",
+    "type": "Arabica"
+    },
+    {
+    "name": "Vietnam",
+    "port": "Export",
+    "number": "25,000",
+    "type": "Robusta"
+    },
+    {
+    "name": "Colombia",
+    "port": "Export",
+    "number": "11,800",
+    "type": "Arabica"
+    },
+    {
+    "name": "Uganda",
+    "port": "Export",
+    "number": "6,520",
+    "type": "Arabica & Robusta"
+    },
+    {
+    "name": "Indonesia",
+    "port": "Export",
+    "number": "6,500",
+    "type": "Robusta & Arabica"
+    },
+    {
+    "name": "Honduras",
+    "port": "Export",
+    "number": "5,600",
+    "type": "Arabica"
+    },
+    {
+    "name": "Ethiopia",
+    "port": "Export",
+    "number": "4,725",
+    "type": "Arabica"
+    },
+    {
+    "name": "Peru",
+    "port": "Export",
+    "number": "4,100",
+    "type": "Arabica"
+    },
+    {
+    "name": "India",
+    "port": "Export",
+    "number": "3,920",
+    "type": "Arabica & Robusta"
+    },
+    {
+    "name": "Guatemala",
+    "port": "Export",
+    "number": "3,400",
+    "type": "Arabica"
+    },
+    {
+    "name": "European Union",
+    "port": "Inport",
+    "number": "46,000",
+    "type": "/"
+    },
+    {
+    "name": "United States",
+    "port": "Inport",
+    "number": "27,100",
+    "type": "/"
+    },
+    {
+    "name": "Japan",
+    "port": "Inport",
+    "number": "7,700",
+    "type": "/"
+    },
+    {
+    "name": "Philippines",
+    "port": "Inport",
+    "number": "6,200",
+    "type": "/"
+    },
+    {
+    "name": "Canada",
+    "port": "Inport",
+    "number": "5,100",
+    "type": "/"
+    },
+    {
+    "name": "Russia",
+    "port": "Inport",
+    "number": "3,550",
+    "type": "/"
+    },
+    {
+    "name": "United Kingdom",
+    "port": "Inport",
+    "number": "3,450",
+    "type": "/"
+    },
+    {
+    "name": "Switzerland",
+    "port": "Inport",
+    "number": "3,400",
+    "type": "/"
+    },
+    {
+    "name": "China",
+    "port": "Inport",
+    "number": "3,100 ",
+    "type": "/"
+    },
+    {
+    "name": "Korea, South",
+    "port": "Inport",
+    "number": "3,100 ",
+    "type": "/"
+    }
+    ]
+    }
