@@ -86,9 +86,10 @@ function draw() {
             let y = mercY(lat) - cy;
             let r = map(Math.sqrt(coffeeData.country[i].number), 0, 255, 5, 20);
             let ppic = coffeeData.country[i].image;
+            let cnote = coffeeData.country[i].note;
             //fill(255, 0, 255, 200);
             //ellipse(x, y, 20, 20);
-            citylocs.push(new Cityloc(x, y, r, coffeeData.country[i].name, coffeeData.country[i].number, ppic));
+            citylocs.push(new Cityloc(x, y, r, coffeeData.country[i].name, coffeeData.country[i].number, ppic, cnote));
         }
     
     } else if(isCityDataReady) {
@@ -122,13 +123,14 @@ function mousePressed() {
 }
 
 class Cityloc {
-    constructor(x, y, r, name, num, pic) {
+    constructor(x, y, r, name, num, pic, note) {
         this.x = x;
         this.y = y;
         this.name = name;
         this.r = r;
         this.num = num;
         this.pic = pic;
+        this.note = note
     }
     
     drawloc() {
@@ -152,6 +154,8 @@ class Cityloc {
             headingElement.innerHTML = this.name;
             let imageElement = document.getElementById('c-img');
             imageElement.src = this.pic;
+            let pElement = document.getElementById("c-note");
+            pElement.innerHTML = this.note;
 
             if(citystate = true){
                 strokeWeight(3);
